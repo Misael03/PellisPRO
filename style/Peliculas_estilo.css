@@ -1,0 +1,105 @@
+body {
+    background-color: rgba(30,30,25);
+    margin: 0;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+#Coraline_Video {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+  
+  #Coraline_Portada {
+    width: 1000px;
+    height: 325px;
+    font-size: 80px;
+    font-family: Helvetica;
+    background-color: none;
+    color: rgb(206, 206, 13);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 215px;
+    border: 2px solid rgb(206, 206, 13);
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 200px;
+
+  }
+  
+  #Coraline_Portada:hover {
+    background-color: rgba(255, 255, 0, 0.438);
+    color: rgba(30,30,25);
+    cursor: pointer;
+  }
+
+#Coraline_Vista {
+
+    height: 320px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    display: inline;
+}  
+
+#Titulo {
+    display: inline;
+    color: rgb(255, 255, 255);
+    width: max-content;
+    height: max-content;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+div {
+    width: 500px;
+    height: max-content;
+    margin-top: -320px;
+    margin-left: 270px;
+ /*   border: 3px solid red; */
+}
+
+.Sinopsis {
+    display: inline;
+    color: rgba(255, 255, 255, 0.699);
+    text-align: justify;
+    height: max-content;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+b {
+    color: rgba(255, 255, 255, 0.932);
+}
+
+article {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    height: max-content;
+    display: block;
+/*    border: 3px solid red; */
+    width: 1000px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(119, 216, 22);
+    margin-left: 30px;
+}
+
+a:hover {
+    color: rgb(92, 167, 17);
+}
+
