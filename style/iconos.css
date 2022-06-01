@@ -1,75 +1,6 @@
 @charset "UTF-8";
 
 
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: arial;
-}
-body{ /*tu preferencia Sam*/
-  background-color: rgba(30,30,25);
-  color: white;
-}
-/*-------------------Header------------------*/
-header{
-  width: 100%;
-  background-color: rgba(0,0,0,0.7);
-  border-bottom: 1px solid white;
-  padding: 10px;
-}
-/*contenedor del buscador*/
-.barra_busqueda{
-width:300px;
-  padding: 5px;
-background-color: #000000;
-position:relative;
-top:5px;
-background-color: #ff0000; /*rojo :3*/
-  border-radius: 7px;
-}
-.barra_busqueda input{
-  width: 90%;
-  height:23px;
-}
-.barra_busqueda span{
-  vertical-align: sub;
-}
-/*------CONTENENDOR SECCIONES------*/
-#secciones{
-  position: fixed;
-  background-color: rgba(0,0,0,0.6);
-  width: 300px;
-  border-right: 2px solid black;
-  height: 100%;
-}
-#secciones nav{
-  padding-top: 20px;
-}
-#secciones ul{
-  list-style: none;
-}
-#secciones ul li{
-  padding: 10px 10px;
-  margin-top: 5px;
-  border-bottom: 1px solid #fff;
-  width: 80%;
-  margin-left: 5px;
-}
-#secciones ul li:hover{
-  background-color: rgba(50,50,50);
-}
-#secciones ul li a{
-  color: #909090;
-  text-shadow: 0px 0px 1px black;
-  text-decoration: none;
-}
-#secciones ul li a span{
-  vertical-align: middle;
-  margin-right: 7px;
-}
- 
-
 @font-face {
   font-family: "pruebas";
   src:url("fonts/pruebas.eot");
@@ -126,32 +57,3 @@ background-color: #ff0000; /*rojo :3*/
 .icon-hot:before {
   content: "\66";
 }
-
-
-#Coraline_Video {
-  width: 500px;
-  margin-left: 300px;
-  display: none;
-}
-
-#Coraline_Portada {
-  width: 500px;
-  height: 250px;
-  font-size: 70px;
-  font-family: Helvetica;
-  background-color: none;
-  color: rgb(206, 206, 13);
-  margin-left: 300px;
-  text-align: center;
-  padding-top: 85px;
-  border: 2px solid rgb(206, 206, 13);
-  display: block;
-}
-
-#Coraline_Portada:hover {
-  background-color: rgba(255, 255, 0, 0.438);
-  color: rgba(30,30,25);
-  cursor: pointer;
-}
-
-

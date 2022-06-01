@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    /*tu preferencia Sam*/
+    background-color: rgba(30, 30, 25);
+    color: white;
+}
+
+/*-------------------Header------------------*/
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+/*contenedor del buscador*/
+.barra_busqueda {
+    width: 300px;
+    padding: 5px;
+    background-color: #000000;
+    position: relative;
+    top: 5px;
+    background-color: #ff0000;
+    /*rojo :3*/
+    border-radius: 7px;
+}
+
+.barra_busqueda input {
+    width: 90%;
+    height: 23px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+}
+.barra_busqueda input:focus {
+    outline: gray inset 2px;
+}
+
+.barra_busqueda span {
+    vertical-align: sub;
+    cursor: pointer;
+}
+
+/*------CONTENENDOR SECCIONES------*/
+#secciones {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+#secciones nav {
+    padding-top: 20px;
+}
+
+#secciones ul {
+    list-style: none;
+}
+
+#secciones ul li {
+    padding: 10px 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin-left: 5px;
+}
+
+#secciones ul li:hover {
+    background-color: rgba(50, 50, 50);
+}
+
+#secciones ul li a {
+    color: #909090;
+    text-shadow: 0px 0px 1px black;
+    text-decoration: none;
+}
+
+#secciones ul li a span {
+    vertical-align: middle;
+    margin-right: 7px;
+}
